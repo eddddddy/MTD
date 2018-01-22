@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - track1
+  - track2
+  - track3
+  - track4
+  - add
+  - subtract
+  - attacker
+  - divide2
+  - multiply2
+  - moneydisplay
+  - startbutton
+  - trackbounds
+  - bullet
+  - canvas
+  - panel
+  - livesdisplay
+  - itemspanel
+  - hoop
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Track Boundary
+    uniqueID: 2963940949
+    locked: 0
+  - name: Background
+    uniqueID: 519810021
+    locked: 0
+  - name: Attack
+    uniqueID: 1085442511
+    locked: 0
+  - name: UI
+    uniqueID: 3101194023
+    locked: 0
+  - name: UI2
+    uniqueID: 4055232239
+    locked: 0
+  - name: Defense
+    uniqueID: 1229524243
+    locked: 0
+  - name: Defense2
+    uniqueID: 4007036831
+    locked: 0
+  - name: Particles
+    uniqueID: 3894470557
+    locked: 0

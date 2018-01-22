@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1766852265188654}
+  m_IsPrefabParent: 1
+--- !u!1 &1766852265188654
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4153526437173558}
+  - component: {fileID: 114678933529321756}
+  m_Layer: 0
+  m_Name: Round3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4153526437173558
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1766852265188654}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.28457555, y: -0.019756263, z: -10.800781}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114678933529321756
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1766852265188654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9710677fd3fb8d44b95c03e673c4d6a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  roundAttackers:
+  - {fileID: 1144956445384978, guid: 9b1104b17290d524bb4ac182a3d0ae8a, type: 2}
+  - {fileID: 1144956445384978, guid: 9b1104b17290d524bb4ac182a3d0ae8a, type: 2}
+  - {fileID: 1144956445384978, guid: 9b1104b17290d524bb4ac182a3d0ae8a, type: 2}
+  - {fileID: 1144956445384978, guid: 9b1104b17290d524bb4ac182a3d0ae8a, type: 2}
+  - {fileID: 1310087314265964, guid: c6d7836f8f4e1214f8ce0f5aa968e36d, type: 2}
+  - {fileID: 1144956445384978, guid: 9b1104b17290d524bb4ac182a3d0ae8a, type: 2}
+  - {fileID: 1310087314265964, guid: c6d7836f8f4e1214f8ce0f5aa968e36d, type: 2}
+  - {fileID: 1310087314265964, guid: c6d7836f8f4e1214f8ce0f5aa968e36d, type: 2}
+  - {fileID: 1310087314265964, guid: c6d7836f8f4e1214f8ce0f5aa968e36d, type: 2}
+  - {fileID: 1144956445384978, guid: 9b1104b17290d524bb4ac182a3d0ae8a, type: 2}
+  - {fileID: 1310087314265964, guid: c6d7836f8f4e1214f8ce0f5aa968e36d, type: 2}
+  - {fileID: 1310087314265964, guid: c6d7836f8f4e1214f8ce0f5aa968e36d, type: 2}
+  - {fileID: 1144956445384978, guid: 9b1104b17290d524bb4ac182a3d0ae8a, type: 2}
+  - {fileID: 1144956445384978, guid: 9b1104b17290d524bb4ac182a3d0ae8a, type: 2}
+  timeOffsets:
+  - 0
+  - 0.25
+  - 0.25
+  - 0.25
+  - 0.20833333
+  - 0.041666668
+  - 0.041666668
+  - 0.083333336
+  - 0.083333336
+  - 0.041666668
+  - 0.041666668
+  - 0.083333336
+  - 0.125
+  - 0.25
+  RoundReward: 28
